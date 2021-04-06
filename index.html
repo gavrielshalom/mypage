@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var time = document.getElementById("aneG").value*1000;
+            
+
+        function addOnClick(){
+            var x = document.createElement("LI");
+            var t = document.createTextNode(document.getElementById("textToAddS").value);
+            x.appendChild(t);
+            document.getElementById("listToAdd").appendChild(x);
+            document.getElementById("textToAddS").value = "";
+        }
+        function deleteOnClick(){
+            document.getElementById("listToAdd").firstChild.remove();
+            li.remove();
+        }
+        
+    </script>
+    <img src="" alt="">
+    <h3>Is listesi!</h3>
+    <p>Is eklemek icin butona tikla!!</p>
+    <ol id="listToAdd">
+        
+    </ol>
+    <input type="text" name="" id="textToAddS" placeholder="Görev ekleyin!">
+    <button onclick="addOnClick()" class="addButton">Eklemek için tıkla!</button>
+    <button onClick="deleteOnClick()" class="deleteButton">Sil</button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    display: grid;
+    vertical-align: middle;
+    justify-content: center;
+    position: relative;
+    background-color: #1e1e1e;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.addButton{
+    overflow: hidden;
+    background-color: #5EBA7D;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.deleteButton{
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #DC3545;
+    color: white;
+}
+body button{
+    
+    height: 50px;
+}
+body input{
+    height: 60px;
+}
