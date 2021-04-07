@@ -22,4 +22,5 @@ function myFunction() {
           $seconds.textContent = seconds + ' saniye' + (seconds == 1 ?  '' :  's')
           if(seconds --> 0) setTimeout(countdown, 1000)
       })();
+   document.getElementById("listToAdd").lastChild.remove();
    }
